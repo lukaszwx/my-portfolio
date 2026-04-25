@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Lucas Neves — Desenvolvedor Front-end</title>
+  <meta name="description" content="Portfólio de Lucas Neves, desenvolvedor Front-end focado em interfaces modernas, UX, performance e animações." />
+  <meta name="author" content="Lucas Neves" />
+  <meta name="theme-color" content="#000000" />
+
+  <meta property="og:title" content="Lucas Neves — Desenvolvedor Front-end" />
+  <meta property="og:description" content="Interfaces modernas com foco em UX, performance e animações." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lukaszwx.github.io/portfolio_Lukas/" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo-lucas.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="loader" aria-label="Carregando">
+    <svg class="loader-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+      <rect class="logo-border" x="4" y="4" width="72" height="72" rx="4" stroke="white" stroke-width="1.5" fill="none"/>
+      <path class="logo-l" d="M22 20 L22 52 L54 52" stroke="white" stroke-width="4" stroke-linecap="square" fill="none"/>
+      <line class="logo-slash" x1="38" y1="20" x2="54" y2="36" stroke="white" stroke-width="1.5" opacity="0.5"/>
+      <rect class="logo-dot" x="50" y="48" width="8" height="8" fill="white"/>
+    </svg>
+  </div>
+
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <header class="header" id="topo">
+    <a href="#topo" class="logo-link" aria-label="Voltar ao topo">
+  <img src="assets/Lucas.jpeg" alt="minha logo" class="logo-img">
+  <span class="logo-name">LN</span>
+</a>
+ 
+      <span class="logo-name"></span>
+    </a>
+
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Skills</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero-top-bar">
+        <span class="hero-tag"><span class="blink-dot"></span> Disponível para projetos</span>
+        <span class="hero-counter">001 / 005</span>
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-name">
+          <span class="name-line">Lucas</span>
+          <span class="name-line offset">Neves</span>
+        </h1>
+
+        <div class="hero-aside">
+          <div class="hero-role">
+            <span class="role-line"></span>
+            Desenvolvedor Front-end
+          </div>
+          <p class="hero-desc">
+            Crio interfaces modernas e performáticas com foco em UX, detalhes visuais e animações. Estudante de ADS apaixonado por design e código.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projetos" class="btn primary">Ver projetos</a>
+            <a href="#contato" class="btn ghost">Contato →</a>
+          </div>
+          <div class="hero-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GSAP</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="scroll-track"><div class="scroll-thumb"></div></div>
+        <span>scroll</span>
+      </div>
+
+      <div class="hero-deco" aria-hidden="true">
+        <svg class="deco-ring" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="200" cy="200" r="160" stroke="white" stroke-width="0.5" stroke-dasharray="4 8"/>
+          <circle cx="200" cy="200" r="100" stroke="white" stroke-width="0.3" opacity="0.4"/>
+        </svg>
+        <div class="deco-corner-tl"></div>
+        <div class="deco-corner-br"></div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section sobre" id="sobre">
+      <div class="section-header">
+        <span class="section-num">002</span>
+        <h2>Sobre</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <p>
+            Sou desenvolvedor Front-end e estudante de <em>Análise e Desenvolvimento de Sistemas</em>, com foco na criação de interfaces modernas, funcionais e visualmente refinadas.
+          </p>
+          <p>
+            Tenho atenção especial a detalhes, hierarquia visual e microinterações, buscando sempre unir estética e usabilidade. Trabalho com iniciativa e aprendizado contínuo.
+          </p>
+        </div>
+        <div class="sobre-stats">
+          <div class="stat-item">
+            <span class="stat-val">11</span>
+            <span class="stat-desc">Projetos concluídos</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">ADS</span>
+            <span class="stat-desc">Análise e Desenv. de Sistemas</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">∞</span>
+            <span class="stat-desc">Dedicação ao aprendizado</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section habilidades" id="habilidades">
+      <div class="section-header">
+        <span class="section-num">003</span>
+        <h2>Tecnologias</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="skills-grid" role="list">
+        <div class="skill-item" role="listitem">
+          <div class="skill-ico"><i class="fa-brands fa-html5" aria-hidden="true"></i></div>
+          <div class="skill-info">
+            <strong>HTML5</strong>
+            <span>Semântica · Acessibilidade</span>
+          </div>
+          <div class="skill-line"></div>
+        </div>
+        <div class="skill-item" role="listitem">
+          <div class="skill-ico"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i></div>
+          <div class="skill-info">
+            <strong>CSS3</strong>
+            <span>Flexbox · Grid · Animações</span>
+          </div>
+          <div class="skill-line"></div>
+        </div>
+        <div class="skill-item" role="listitem">
+          <div class="skill-ico"><i class="fa-brands fa-js" aria-hidden="true"></i></div>
+          <div class="skill-info">
+            <strong>JavaScript</strong>
+            <span>DOM · Async · Fetch API</span>
+          </div>
+          <div class="skill-line"></div>
+        </div>
+        <div class="skill-item" role="listitem">
+          <div class="skill-ico"><i class="fa-solid fa-bolt" aria-hidden="true"></i></div>
+          <div class="skill-info">
+            <strong>GSAP</strong>
+            <span>ScrollTrigger · Timelines</span>
+          </div>
+          <div class="skill-line"></div>
+        </div>
+        <div class="skill-item" role="listitem">
+          <div class="skill-ico"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
+          <div class="skill-info">
+            <strong>Git & GitHub</strong>
+            <span>Versionamento · Colaboração</span>
+          </div>
+          <div class="skill-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section projetos" id="projetos">
+      <div class="section-header">
+        <span class="section-num">004</span>
+        <h2>Projetos</h2>
+        <div class="section-rule"></div>
+      </div>
+
+      <div class="projects-list">
+  <article class="project-item">
+    <div class="project-index">01</div>
+    <div class="project-thumb">
+      <img src="assets/landing_page.png" alt="Landing Page de Conversão" loading="lazy" />
+    </div>
+    <div class="project-body">
+      <div class="project-labels">
+        <span>UX</span><span>Performance</span><span>Design</span>
+      </div>
+      <h3>Landing Page de Conversão</h3>
+      <p>Projeto moderno com foco em conversão, estrutura visual clara e CTAs estratégicos com GSAP.</p>
+      <div class="project-stack">HTML5 · CSS3 · JavaScript · GSAP</div>
+      <div class="project-actions">
+        <a href="https://lukaszwx.github.io/landing-page/" target="_blank" rel="noopener noreferrer" class="btn primary small">Ver projeto ↗</a>
+        <button type="button" class="btn ghost small btn-details" data-project="landing">Detalhes</button>
+      </div>
+    </div>
+  </article>
+
+  <article class="project-item">
+    <div class="project-index">02</div>
+    <div class="project-thumb">
+      <img src="assets/javascriptprojeto.png" alt="Aplicação JavaScript" loading="lazy" />
+    </div>
+    <div class="project-body">
+      <div class="project-labels">
+        <span>Interatividade</span><span>Lógica</span><span>DOM</span>
+      </div>
+      <h3>Aplicação JavaScript</h3>
+      <p>Sistema interativo com manipulação avançada do DOM, microinterações e animações dinâmicas.</p>
+      <div class="project-stack">HTML5 · CSS3 · JavaScript · GSAP</div>
+      <div class="project-actions">
+        <a href="https://lukaszwx.github.io/projeto-dashboard/" target="_blank" rel="noopener noreferrer" class="btn primary small">Ver projeto ↗</a>
+        <button type="button" class="btn ghost small btn-details" data-project="dashboard">Detalhes</button>
+      </div>
+    </div>
+  </article>
+
+  <article class="project-item">
+    <div class="project-index">03</div>
+    <div class="project-thumb">
+      <img src="assets/site%20institucional.png" alt="Site Institucional" loading="lazy" />
+    </div>
+    <div class="project-body">
+      <div class="project-labels">
+        <span>Corporativo</span><span>Animações</span><span>Responsivo</span>
+      </div>
+      <h3>Site Institucional</h3>
+      <p>Site corporativo com animações refinadas, cards de serviços, depoimentos e formulário funcional.</p>
+      <div class="project-stack">HTML5 · CSS3 · JavaScript · GSAP</div>
+      <div class="project-actions">
+        <a href="https://lukaszwx.github.io/projeto-institucional/" target="_blank" rel="noopener noreferrer" class="btn primary small">Ver projeto ↗</a>
+        <button type="button" class="btn ghost small btn-details" data-project="institucional">Detalhes</button>
+      </div>
+    </div>
+  </article>
+
+  <!-- 🔥 NOVO PROJETO -->
+  <article class="project-item">
+    <div class="project-index">04</div>
+    <div class="project-thumb">
+      <img src="assets/aurora.png" alt="Aurora Headphones" loading="lazy" />
+    </div>
+    <div class="project-body">
+      <div class="project-labels">
+        <span>Produto</span><span>Premium</span><span>UI/UX</span>
+      </div>
+      <h3>Aurora Headphones</h3>
+      <p>Landing page de produto premium inspirada em Apple, com storytelling visual e animações suaves.</p>
+      <div class="project-stack">HTML5 · CSS3 · JavaScript · GSAP · ScrollTrigger</div>
+      <div class="project-actions">
+        <a href="https://lukaszwx.github.io/aurora-headphones/" target="_blank" rel="noopener noreferrer" class="btn primary small">Ver projeto ↗</a>
+        <button type="button" class="btn ghost small btn-details" data-project="aurora">Detalhes</button>
+      </div>
+    </div>
+  </article>
+</div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contato" id="contato">
+      <div class="section-header">
+        <span class="section-num">005</span>
+        <h2>Contato</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="contato-inner">
+        <p class="contato-headline">Tem um projeto em mente?<br><strong>Vamos conversar.</strong></p>
+        <div class="contact-links">
+          <a href="https://github.com/lukaszwx" target="_blank" rel="noopener noreferrer" class="contact-item" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+            <span>lukaszwx</span>
+            <span class="contact-arrow">→</span>
+          </a>
+          <a href="mailto:lucasnevesdev0@gmail.com" class="contact-item" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+            <span>lucasnevesdev0@gmail.com</span>
+            <span class="contact-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <a href="#footer" class="logo-link" aria-label="Voltar ao topo">
+  <img src="assets/Lucas.jpeg" alt="minha logo" class="logo-img">
+  <span class="logo-name">LN</span>
+</a>
+      <span>Lucas Neves · <span id="footer-year"></span></span>
+      <span class="footer-right">Desenvolvedor Front-end</span>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+    <div class="modal" tabindex="-1">
+      <button class="modal-close" aria-label="Fechar modal" type="button">✕</button>
+      <div class="modal-index" id="modalIndex"></div>
+      <h3 class="modal-title" id="modalTitle"></h3>
+      <span class="modal-subtitle"></span>
+      <p class="modal-description" id="modalDesc"></p>
+      <p class="modal-label">Tecnologias</p>
+      <div class="modal-tech" aria-label="Tecnologias usadas"></div>
+      <div class="modal-buttons">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn primary modal-demo">Ver Demo ↗</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn ghost modal-code">Ver Código</a>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="main.js"></script>
+</body>
+</html>
+
