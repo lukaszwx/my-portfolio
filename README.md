@@ -36,6 +36,9 @@ https://lukaszwx.github.io/portfolio_Lukas/
 - **Site Institucional**  
   Projeto corporativo com layout elegante, seções modulares e formulário funcional.
 
+-**Aurora HeadPHones**
+landing page de produto premium inspirada em fones de ouvido de linha
+premium.
 ---
 
 ## 📸 Preview
